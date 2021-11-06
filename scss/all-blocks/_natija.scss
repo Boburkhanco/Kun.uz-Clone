@@ -1,0 +1,64 @@
+.natija-bg{
+    background-color: #F0F0F0;
+    padding-right: 0;
+    max-width: 645px;
+    margin-left: 12px;
+    margin-top: 20px;
+    margin-bottom: 25px;
+}
+.natija-img{
+    max-width: 590px;
+    position: relative;
+    box-shadow: 15px 15px 1px 1px #ffffff;
+    top: -23px;
+    left: -10px;
+}
+.natija-main__title{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+    margin-top: 15px;
+    padding: 0 0 0 13px;
+}
+.natija-links{
+    text-decoration: none;
+    color: black;
+
+    &:hover{
+        color: rgb(0, 0, 238);
+    }
+}
+
+.natija-boxes{
+    margin-left: 20px;
+}
+
+.natija-box__width{
+    margin-top: 20px;
+}
+.natija-box__width:first-child{
+    margin-top: 0;
+}
+.natija-boxes__link {
+    text-decoration: none;
+    color: #000000;
+
+    &:hover{
+        color: rgb(0, 0, 238);
+    }
+}
+.natija-boxes__img {
+    max-width: 170px;
+}
+.natija-boxes_title {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 23px;
+    margin-left: 20px;
+    margin-top: 8px;
+    max-width: 415px;
+}

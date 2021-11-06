@@ -1,0 +1,199 @@
+
+.newsinfo{
+    border-bottom: 1px dashed #979797;
+    max-width: 735px;
+}
+.newsinfo-main {
+    padding-left: 19px;
+    padding-right: 20px;
+    border-left: 1px solid #CECECE;
+}
+.single-page__boxes{
+    max-width: 240px;
+}
+.single-page__boxes-right{
+    max-width: 320px;
+}
+.newsinfo-main__title {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 32px;
+    max-width: 722px;
+}
+.newsinfo-main__text-b {
+    font-family: PT Serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 31px;
+    max-width: 715px;
+    margin-bottom: 0;
+}
+.newsinfo-main__text {
+    font-family: PT Serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 19px;
+    line-height: 31px;
+    margin-bottom: 20px;
+}
+.newsinfo-main__list {
+    list-style-type: none;
+    margin-left: 39px;
+}
+.newsinfo-main__item {
+    font-family: PT Serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 31px;
+    margin-top: 19px;
+    padding-left: 20px;
+    position: relative;
+
+    &:last-child{
+        margin-bottom: 21px;
+    }
+    &::before{
+        content: "";
+        position: absolute;
+        top: 9px;
+        left: 0;
+        width: 10px;
+        height: 10px;
+        background-color: #184fa8;
+        border-radius: 50%;
+    }
+}
+.single-left{
+    max-width: 240px;
+    padding-right: 2px;
+}
+.single-right{
+    max-width: 320px;
+}
+.single-img{
+    margin-top: 25px;
+    margin-bottom: 30px;
+}
+.single-right__box-link {
+    text-decoration: none;
+    padding: 17px 18px 17px 19px;
+    display: inline-block;
+    border: 1px solid #CECECE;
+    color: #000000;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 21px;
+    margin-top: 18px;
+    max-width: 315px;
+
+    &:hover{
+        cursor: pointer;
+        color: rgb(0, 0, 238);
+    }
+}
+.single-right__second-boxes{
+    text-decoration: none;
+    padding: 17px 10px 17px 19px;
+    display: inline-block;
+    border: 1px solid #CECECE;
+    color: #000000;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 21px;
+    margin-top: 18px;
+    max-width: 315px;
+    background-color: #F3F3F3;
+    border-color: transparent;
+
+    &:hover{
+        cursor: pointer;
+        color: rgb(0, 0, 238);
+    }
+}
+
+.newsinfo-second__hashtag {
+    color: #0C2F75;
+    cursor: pointer;
+    margin-top: 20px;
+    margin-bottom: 28px;
+}
+.newsinfo-second__title {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+    margin-bottom: 15px;
+}
+.newsinfo-second__newsbox {
+    border: 1px solid #C0C0C0;
+    box-sizing: border-box;
+    padding: 15px 22px;
+}
+.newsbox-img {
+    width: 105px;
+    height: 65px;
+}
+.newsbox-inner {
+    max-width: 457px;
+    margin-left: 20px;
+}
+
+.newsbox-inner__title {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+}
+.newsbox-inner__text {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    margin-bottom: 0;
+}
+.newsbox-inner__link {
+    text-decoration: none;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    align-items: center;
+}
+.newsbox-inner__link-title {
+    margin-top: 15px;
+    background: #17206A;
+    border: 1px solid #17206A;
+    padding: 12px 25px 12px 25px;
+    max-width: 111px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 16px;
+    color: #ffffff;
+    white-space: nowrap;
+
+    &:hover{
+        background-color: #ffffff;
+        transition: all .4s ease-in;
+        border-color: rgb(179, 179, 179);
+        color: #17206A;
+    }
+}
+
+
+.mavzugaoid-boxes{
+    margin-top: 41px;
+}

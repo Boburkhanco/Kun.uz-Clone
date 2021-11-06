@@ -1,0 +1,87 @@
+
+.interview {
+    background:#F0F0F0;
+}
+.intervyuu{
+    margin-bottom: 20px;
+}
+.intervyu-box {
+    background: white;
+    padding: 0 0 20px 15px;
+    max-width: 300px;
+
+    &:not(:last-child) {
+        margin-right: 40px;
+    }
+}
+.intervyu-box__links{
+    text-decoration: none;
+    color: #000000;
+
+    &:hover{
+        color: rgb(0, 0, 238);
+    }
+}
+.intervyu-img {
+    max-width: 265px;
+    position: relative;
+    box-shadow: 10px 10px 1px 1px #17206A;
+    top: -23px;
+    left: -40px;
+}
+.intervyu-inner__title {
+    max-width: 251px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 23px;
+    margin: 0;
+    margin-top: 20px;
+}
+.intervyu-sidetext{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 34px;
+    color: #E3E3E3;
+    transform: rotate(-90deg);
+    position: relative;
+    top: 35px;
+}
+.intervyu__title{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+    margin-left: 20px;
+    margin-top: 25px;
+    margin-bottom: 30px;
+
+    &::before{
+        content: "";
+        display: block;
+        width: 15px;
+        height: 15px;
+        background-image: url("./../images/Ellipse 2.svg");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+        position: relative;
+        top: 17px;
+        left: -20px;
+    }
+}
+.intervyu-link{
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    text-decoration-line: underline;
+    color: #17206A;
+    margin-top: 42px;
+}

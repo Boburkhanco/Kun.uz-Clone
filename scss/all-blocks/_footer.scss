@@ -1,0 +1,72 @@
+.footer{
+    margin-top: 70px;
+}
+.footer-menu {
+    background-color: #1C2680;
+}
+.footer-menu__list {
+    max-width: 723px;
+    list-style-type: none;
+}
+.footer-menu__item {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 18px;
+    color: #FFFFFF;
+    margin: 0;
+    padding: 0;
+    padding-top: 18px;
+    padding-bottom: 18px;
+}
+.footer-menu__link {
+    text-decoration: none;
+}
+.footer-menu__logo {
+    width: 26px;
+    height: 26px;
+    margin-top: 14px;
+    background-image: url("./../images/kunuz-18+.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+.footer-content {
+    background-color: #17206A;
+}
+.footer-content__inner {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 13px;
+    line-height: 18px;
+    letter-spacing: -0.005em;
+    color: #FFFFFF;
+    max-width: 1000px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+.footer-content__social {
+    list-style-type: none;
+    max-width: 255px;
+    justify-content: space-between;
+    align-items: center;
+    justify-content: center;
+}
+.footer-content__social-item {
+    width: 100px;
+    height: 80px;
+    margin: 0;
+    padding: 0;
+    padding-top: 20px;
+
+    &:hover{
+        margin-top: -18px;
+        transition: all .3s ease-in;
+        cursor: pointer;
+    }
+}
+.footer-content__social-link {
+    text-decoration: none;
+}

@@ -1,0 +1,151 @@
+.media__title{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+    margin-left: 20px;
+    margin-top: -17px;
+    margin-bottom: 41px;
+
+    &::before{
+        content: "";
+        display: block;
+        width: 15px;
+        height: 15px;
+        background-image: url("./../images/Ellipse 2.svg");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+        position: relative;
+        top: 17px;
+        left: -20px;
+    }
+}
+.active-video{
+
+    &:hover{
+        cursor: pointer;
+        transform: scale(1.1, 1.1);
+        transition: all .6s ease-in;
+    }
+}
+.small-video:hover{
+    cursor: pointer;
+    transform: scale(1.15, 1.16);
+    transition: 1s;
+}
+
+.video-box__video{
+    max-height: 196px;
+    overflow: hidden;
+}
+.active-video__box{
+    overflow: hidden;
+    max-height: 405px;
+}
+.active-box__title{
+    position: relative;
+    top: -70px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 23px;
+    line-height: 126.25%;
+    color: #FFFFFF;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+.active-box__title-2{
+    top: -120px;
+}
+.video-box__title{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+}
+.video-box__date{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 15px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.video-box__date-link{
+    text-decoration: none;
+}
+.two-boxes{
+    max-width: 640px;
+}
+
+
+
+// ads　part 
+.ads2{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 60px;
+    user-select: none;
+}
+.ads2-img {
+    position: absolute;
+    max-width: 1337px;
+}
+.ads2-inner {
+    position: relative;
+    max-width: 973px;
+    height: 265px;
+    align-items: center;
+    margin-right: 25px;
+    
+}
+.ads2-logo {
+    padding: 20px 35px 20px 37px;
+    background-color: #ffffff;
+    border-radius: 50px;
+}
+.ads2-content {
+    max-width: 342px;
+    margin-left: 12px;
+}
+.ads-title {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 30px;
+    color: #1C307A;
+}
+.ads2-text {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 18px;
+    color: #000000;
+}
+.ads2-buttons {
+    position: relative;
+    margin-left: 88px;
+}
+.ads2-btn {
+    padding: 20px 35px 20px 37px;
+    background-color: #212121;
+    border-radius: 50px;
+    display: flex;
+}
+.ads2-btn__apple-text {
+    margin: 0;
+}
+.ads2-btn__apple-title {
+    margin: 0;
+}
+.ads2-btn__apple {
+    width: 20px;
+    height: 22px;
+}

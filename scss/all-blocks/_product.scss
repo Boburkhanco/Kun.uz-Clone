@@ -1,0 +1,76 @@
+.texno__title{
+    position: absolute;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+    margin: 0;
+    margin-left: 38px;
+    margin-top: 14px;
+    text-transform: uppercase;
+
+    &::before{
+        content: "";
+        display: block;
+        width: 15px;
+        height: 15px;
+        background-image: url("./../images/Ellipse 2.svg");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+        position: relative;
+        top: 17px;
+        left: -20px;
+    }
+}
+.product-hero-right__more-link {
+    text-decoration: none;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    align-items: center;
+}
+.product-hero-right__more-title{
+    margin-top: 32px;
+    background: #F0F0F0;
+    border: 1px solid #17206A;
+    padding: 13px 40px 13px 41px;
+    max-width: 207px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 16px;
+    color: #17206A;
+    white-space: nowrap;
+
+    &:hover{
+        background-color: #17206A;
+        transition: all .4s ease-in;
+        border-color: rgb(179, 179, 179);
+        color: #f0f0f0;
+    }
+}
+
+.product-news__more{
+    background: #17206A;
+    border-left: 1px solid #2246C5;
+    padding: 18px 20px 17px 20px;
+    max-width: 600px;
+    margin: 0 auto;
+    margin-top: 50px;
+
+}
+.product-news__more-link {
+    text-decoration: none;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    color: #ffffff;
+    align-items: center;
+}
