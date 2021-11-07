@@ -1,0 +1,128 @@
+.contact{
+    margin: 0 auto;
+    margin-top: 60px;
+    justify-content: center;
+}
+.murojaat {
+    max-width: 500px;
+    width: 50%;
+}
+.murojaat-title {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 24px;
+    color: #0C2F75;
+}
+.input-xabar {
+    height: 180px;
+
+    &::placeholder{
+        position: relative;
+        top: -30%;
+    }
+}
+.main-btn-solid {
+    padding: 12px 43px;
+    text-decoration: none;
+    background-color: #17206A;
+    border-radius: 5px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #ffffff;
+    border: 2px solid #17206A;
+    margin-top: 20px;
+
+
+    &:hover{
+        background-color: #fff;
+        border: 2px solid #17206A;
+        color: #17206A;
+        transition: all .4s ease-in-out;
+    }
+}
+.telefon {
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    padding: 35px;
+    max-width: 681px;
+    width: 50%;
+    max-height: 405px;
+    margin-left: 56px;
+    position: relative;
+    top: 250px;
+}
+.inp{
+    border: none;
+    border-bottom: 1px solid #0000004d;
+    text-decoration: none;
+    width: 100%;
+    padding: 10px 10px 20px 0;
+    margin-top: 40px;
+
+    &:hover{
+        border-color: #000000;
+    }
+}
+
+.telefon-tel {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+}
+.telefon-xabar{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+    color: #0C2F75;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #0000003c;
+}
+.telefon-email {
+    max-width: 611px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #0000003c;
+}
+.telefon-social {
+    max-width: 611px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #0000003c;
+    align-items: center;
+}
+.telefon-ilova {
+    max-width: 611px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #0000003c;
+    align-items: center;
+}
+.tel-link{
+    text-decoration: none;
+}
+.info-kunuz{
+    color: #17206A;
+}
