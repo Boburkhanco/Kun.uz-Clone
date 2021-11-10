@@ -12,6 +12,7 @@
 }
 .header__logo {
     display: block;
+    cursor: pointer;
 }
 .header__nav {
     list-style-type: none;
@@ -107,3 +108,15 @@
 
 //stopped at 19:00 
 
+.lupa{
+    width: 37px;
+    height: 37px;
+    border-radius: 50%;
+    background-color: #E6E6E6;
+    background-image: url("./../images/kunuz-lupa.svg");
+    background-position: center;
+    background-size: 16px 16px;
+    background-repeat: no-repeat;
+    margin-left: -40px;
+    cursor: pointer;
+}

@@ -409,6 +409,7 @@ ul, ol {
 
 .header__logo {
   display: block;
+  cursor: pointer;
 }
 
 .header__nav {
@@ -515,6 +516,19 @@ ul, ol {
 
 .btn-menu {
   border-radius: 20px;
+}
+
+.lupa {
+  width: 37px;
+  height: 37px;
+  border-radius: 50%;
+  background-color: #E6E6E6;
+  background-image: url("./../images/kunuz-lupa.svg");
+  background-position: center;
+  background-size: 16px 16px;
+  background-repeat: no-repeat;
+  margin-left: -40px;
+  cursor: pointer;
 }
 
 .triangle {
@@ -1358,6 +1372,12 @@ ul, ol {
   text-decoration: none;
 }
 
+.ads2-buttons img:hover {
+  margin-top: -5px;
+  -webkit-transition: all .7s;
+  transition: all .7s;
+}
+
 .texno__title {
   position: absolute;
   font-family: 'Montserrat';
@@ -1788,27 +1808,16 @@ strong a {
 }
 
 .input-xabar {
-  height: 180px;
+  height: 230px;
+  border: none;
+  border-bottom: 1px solid #0000004d;
+  text-decoration: none;
+  width: 100%;
+  padding: 10px 10px 20px 0;
 }
 
-.input-xabar::-webkit-input-placeholder {
-  position: relative;
-  top: -30%;
-}
-
-.input-xabar:-ms-input-placeholder {
-  position: relative;
-  top: -30%;
-}
-
-.input-xabar::-ms-input-placeholder {
-  position: relative;
-  top: -30%;
-}
-
-.input-xabar::placeholder {
-  position: relative;
-  top: -30%;
+.input-xabar:hover {
+  border-color: #000000;
 }
 
 .main-btn-solid {

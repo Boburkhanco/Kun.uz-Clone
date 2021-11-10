@@ -75,3 +75,10 @@
 .footer-content__social-link {
     text-decoration: none;
 }
+
+.ads2-buttons img{
+    &:hover{
+        margin-top: -5px;
+        transition: all .7s;
+    }
+}
